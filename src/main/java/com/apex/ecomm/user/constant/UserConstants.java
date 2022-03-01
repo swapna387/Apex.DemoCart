@@ -14,6 +14,13 @@ String CORRECT_EMAIL = "swapna387@gmail.com";
 	String BLANK_EMAIL = "";
 	
 	String BLANK_PASSWORD = "";
+
+	 
+	
+	
+	public static String REGISTRATION_SUCCESMSG = "Your Account Has Been Created!";
+	
+	public static String SHEET_NAME = "register";
 	
 
 }

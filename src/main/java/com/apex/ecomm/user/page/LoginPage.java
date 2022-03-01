@@ -59,8 +59,17 @@ public class LoginPage   {
 		
 		return new AccountsPage(driver);
 		
-		
-		
 	}
+		
+		public RegistrationPage navigateToRegister()
+		{
+			web_Util.doClick(REGISTER_LINK);
+			
+			return new RegistrationPage(driver);
+		}
+		
+		
+		
+	
 
 }
